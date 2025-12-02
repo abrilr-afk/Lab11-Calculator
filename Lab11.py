@@ -128,3 +128,11 @@ def main():
     elif option == 2:
         assignment_stats(assignments, submissions)
 
+    elif option == 3:
+        graph(assignments, submissions)
+
+
+
+
+if __name__ == '__main__':
+    main()
